@@ -86,3 +86,4 @@ CV2_Splitter<-function(DIR,DATAset,SEED,FOLD_TEST,TINDEX){
 # SEED: we used 28
 # FOLD_TEST: 1
 CV1_Splitter("/home/User/CCSynergy","Merck",28,1)
+
