@@ -127,6 +127,8 @@ The output will be stored as a .csv file named as Results_Sanger_CCSynergy5_E3_F
 
 ## Citation
 
+Sayed-Rzgar Hosseini, Xiaobo Zhou, CCSynergy: an integrative deep-learning framework enabling context-aware prediction of anti-cancer drug synergy, Briefings in Bioinformatics, 2022;, bbac588, https://doi.org/10.1093/bib/bbac588
+
 ---
 
 ## License
