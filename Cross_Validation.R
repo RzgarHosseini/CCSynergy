@@ -7,7 +7,7 @@ CV1_Splitter<-function(DIR,DATAset,SEED,FOLD_TEST){
   # SEED: see number for random number generation
   # FOLD_TEST: the fold that is considered as the test fold (a number between 1 and 5)
   ### Synergy data and unique drug pairs
-  data<-read.csv(paste0(DIR,"/Data/",DATAset,".csv"))
+  data<-read.csv(paste0(DIR,"/Data/Synergy_Data/",DATAset,".csv"))
   DD<-dim(data)[1]
   U<-unique(data[,c("Index1","Index2")])
   D<-dim(U)[1]
@@ -47,7 +47,7 @@ CV2_Splitter<-function(DIR,DATAset,SEED,FOLD_TEST,TINDEX){
   # FOLD_TEST: the fold that is considered as the test fold (a number between 1 and 5)
   # TINDEX: the index of the given tissue
   ### Synergy data and unique drug pairs
-  data<-read.csv(paste0(DIR,"/Data/",DATAset,".csv"))
+  data<-read.csv(paste0(DIR,"/Data/Synergy_Data/",DATAset,".csv"))
   DD<-dim(data)[1]
   U<-unique(data[,c("Index1","Index2")])
   D<-dim(U)[1]
